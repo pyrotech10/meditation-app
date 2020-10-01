@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.replay {
+  position: absolute;
+  height: 30px;
+  bottom: 30%;
+}
+
 .app {
   height: 100vh;
   display: flex;
