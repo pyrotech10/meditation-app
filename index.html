@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
-    <title>Audio App</title>
+    <title>Meditation timer</title>
   </head>
   <body>
+    <script src="app.js" defer></script>
     <div class="app">
       <div class="vid-container">
         <video loop >
@@ -16,7 +17,7 @@
         </video>
         </div>
         <div class="time-select">
-          <button data-time="10">2 Minutes</button>
+          <button data-time="120">2 Minutes</button>
           <button data-time="300" class="medium-mins">5 Minutes</button>
           <button data-time="600" class="long-mins">10 Minutes</button>
         </div>
@@ -40,7 +41,5 @@
         <button data-sound="./sounds/beach.mp3" data-video="./video/beach.mp4"><img src="./svg/beach.svg" alt=""></button>
       </div>
     </div>
-
-    <script src="app.js"></script>
   </body>
 </html>
